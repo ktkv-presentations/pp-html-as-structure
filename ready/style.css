@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ============= ШАПКА САЙТА ============= */
+
+header#page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header#page-header nav#main-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header#page-header nav#main-nav h1#logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header#page-header nav#main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header#page-header nav#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+header#page-header nav#main-nav ul li a:hover {
+    opacity: 0.8;
+}
+
+/* ============= ГЛАВНЫЙ БАННЕР ============= */
+
+section#hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+section#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section#hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+section#hero button {
+    background: white;
+    color: #667eea;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+section#hero button:hover {
+    transform: scale(1.05);
+}
+
+/* ============= БЛОК "О ПРОФЕССИИ" ============= */
+
+section#about {
+    padding: 80px 20px;
+    background: #f8f9fa;
+}
+
+section#about div#about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section#about div#about-container h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #667eea;
+}
+
+section#about div#about-container article#about-content {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+section#about div#about-container article#about-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section#about div#about-container article#about-content p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+section#about div#about-container article#about-content strong {
+    font-weight: bold;
+    color: #333;
+}
+
+section#about div#about-container article#about-content ul {
+    list-style-position: inside;
+    color: #555;
+    font-size: 1.1em;
+}
+
+section#about div#about-container article#about-content ul li {
+    margin-bottom: 10px;
+}
+
+/* ============= БЛОК "НАВЫКИ" ============= */
+
+section#skills {
+    padding: 80px 20px;
+    background: white;
+}
+
+section#skills div#skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section#skills div#skills-container h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #764ba2;
+}
+
+section#skills div#skills-container article#skills-content {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+section#skills div#skills-container article#skills-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section#skills div#skills-container article#skills-content p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+section#skills div#skills-container article#skills-content strong {
+    font-weight: bold;
+    color: #333;
+}
+
+section#skills div#skills-container article#skills-content ul {
+    list-style-position: inside;
+    color: #555;
+    font-size: 1.1em;
+}
+
+section#skills div#skills-container article#skills-content ul li {
+    margin-bottom: 10px;
+}
+
+/* ============= ПОДВАЛ САЙТА ============= */
+
+footer#page-footer {
+    background: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer#page-footer div#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer#page-footer div#footer-container p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+footer#page-footer div#footer-container div#footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+footer#page-footer div#footer-container div#footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer#page-footer div#footer-container div#footer-links a:hover {
+    color: #667eea;
+}
